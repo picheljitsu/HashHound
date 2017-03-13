@@ -44,7 +44,7 @@ class nsrl_store():
 		self.sha1hash = sha1hash
 		file_name =  pd.read_hdf(self.hdfs_store_path,'hashdata', where="sha1=sha1hash")
 		for i in file_name["FileName"]:
-			return str(sha1hash) + " " + str(i)
+			return "%s %s" % (str(sha1hash), str(i))
 		
 	def md5_lookup(self, md5hash):
 		self.md5hash = md5hash
