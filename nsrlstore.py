@@ -89,7 +89,7 @@ if __name__ == "__main__":
 		hdfs_store_path = args.store_filename
 	except:
     # Clean this shit up
-		ask_hdfs = str(raw_input("""Since you did not specify an HDFS Storage, one will be written to path: \/usr\/share\/store.h5
+		ask_hdfs = str(raw_input("""Since you did not specify an HDFS Storage, one will be written to path: /usr/share/store.h5
 		Do you want to confinue?[Y/n] """)).lower().strip()
 		if not ask_hdfs or ask_hdfs == "y" or ask_hdfs == "yes":
 			hdfs_store_path = "/usr/share/store.h5"
