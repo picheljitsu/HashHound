@@ -10,7 +10,7 @@
 
 try:
 	import argparse
-	import pandas as pd
+	import pandas as pd # Panda... Panda, Panda, PANDA!
 	import os.path
 	import re
 except:
