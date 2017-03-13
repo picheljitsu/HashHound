@@ -22,3 +22,4 @@ Note: A TRUSTED image would be an image build either not yet deployed on a netwo
         
  Obviously it's not there yet, but that's the desired direction and simplicity.
  
+7) Be fast.  Haven't load tested yet, but the the to_hdf module from Pandas is promising.
