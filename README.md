@@ -2,6 +2,7 @@
 Python Module for automating White-Listing and (soon-to-be) Black-Listing
 
 The idea for this tool is that users can:
+
 1) Use tools like Kansa or any other tool that generates hashes to either validate those hashes (md5/sha1) in their environment based of off a whitelist source such as the NSRL's RDS  Hashsets.
 
 2) Develop their own or incorporate their own hashset from a TRUSTED image source. 
