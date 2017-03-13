@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Author: Matt Pichelmayer
-# Hopefully this isn't a stupid waste of time.
+# Hopefully this isn't a waste of time.
 # Created this as a complement to Robert J. Hansen's (https://github.com/rjhansen) NSRL server and NSRL lookup client.  
 # The intent is to: 
 # 	1) Add flexibility and interoperability with whitelisting tools.   
