@@ -13,3 +13,12 @@ Note: A TRUSTED image would be an image build either not yet deployed on a netwo
 4) Be modular; this script can be ran as a server, ran as an imported module or ran locally.
 
 5) Interoperate with the nsrllookup client.
+
+6) Be easy to use. Example, build the hash store and start a server listener:
+
+        import hashhound
+        store = nsrl_store(nsrl_file)
+        nsrlsvr.start(store,localhost,9120)
+        
+ Obviously it's not there yet, but that's the desired direction and simplicity.
+ 
